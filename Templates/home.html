@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+ul#menu li {
+  display:inline;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="adobe" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Adobe Porfolio</a>
+    <a href="wordpress" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Blog</a>
+    </div>
+    
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="adobe" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Adobe Porfolio</a>
+    <a href="wordpress" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Blog</a>
+</div>
+
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+    <!-- Automatic Slideshow Images -->
+    <div class=" w3-display-container w3-center">
+      <img src="{{url_for('static', filename='NYC.jpg')}}" style="width:100%" height="50%">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3>Jorge Argueta</h3>
+        <p><b>Student | Developer | Data Entry Clerk/Analyst</b></p>   
+      </div>
+    </div>
+</div>
+<!-- Page content -->
+<div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    
+  <!-- first section about me -->
+  <div class="w3-content w3-margin-top w3-padding-64" style="max-width:1200px;">
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+  
+      <!-- Left Column -->
+      <div class="w3-third">
+        
+        <div class="w3-white w3-text-grey ">
+          <div class="w3-display-container">
+            
+            <img src="{{url_for('static', filename='profile.png')}}" style="width:85%" alt="Avatar">
+            
+          </div>
+        </div><br>
+  
+      <!-- End Left Column -->
+      </div>
+  
+      <!-- Right Column -->
+      <div class="w3-twothird">
+  
+        <div class="w3-container w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-2"><i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-red"></i>About me </h2>
+            <p style="font-family:courier;" style="font-size: large;" >I'm a Computer Science and Mathematics Student at the University of Maryland, web developer, video and photo editor and data entry clerk.
+                 I specialize in fast pace, logical and heavily numerical workflows.
+                 With a background in many different fields I bring outside the box thinking and analyzation to a vast array of problems.</p>
+        </div>
+        <ul id = "menu">
+        <li > <a href="https://www.linkedin.com/in/jorge-argueta-917030164/" target = "_blank" class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-red"></a> </li>
+        <li > <a href="https://github.com/Jarguet1" target = "_blank" class="fa fa-github fa-fw w3-margin-right w3-large w3-text-red"></a> </li>
+        <li > <a href="https://jarguet19.myportfolio.com/" target = "_blank" class="fa fa-camera fa-fw w3-margin-right w3-large w3-text-red"></a> </li>
+        <li > <a href="https://instagram.com/argueta.19" target = "_blank" class="fa fa-instagram fa-fw w3-margin-right w3-large w3-text-red"></a> </li>
+        <il>  <a href="https://instagram.com/argueta.19" target = "_blank" class="fa fa-file fa-fw w3-margin-right w3-large w3-text-red"></a> </li>
+        </ul>
+        
+  
+        </div>
+  
+      <!-- End Right Column -->
+      </div>
+  
+    <!-- End Grid -->
+    </div>
+  
+    <!-- End Page Container -->
+  </div>
+
+  <h1> UNDER CONSTRUCTION!!! MORE COMING SOON</h1>
+
+
+
+
+  
+  <!-- The Band Section ###################
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">THE BAND</h2>
+    <p class="w3-opacity"><i>We love music</i></p>
+    <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+ 
+    The Contact Section ###################
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Chicago, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+Footer ####################
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+</footer>
+-->
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+</body>
+</html>
+
