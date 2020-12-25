@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>W3.CSS Template</title>
+  <head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/a1a4bf167a.js" crossorigin="anonymous"></script>
+    </head>
+<title>About Jorge</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {font-family: "Lato", sans-serif}
@@ -38,9 +43,9 @@ ul#menu li {
 
     <!-- Automatic Slideshow Images -->
     <div class=" w3-display-container w3-center">
-      <img src="{{url_for('static', filename='NYC.jpg')}}" style="width:100%" height="50%">
-      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-        <h3>Jorge Argueta</h3>
+      <img src="{{url_for('static', filename='airport.jpg')}}" style="width:100%" >
+      <div class="w3-display-middle w3-container w3-text-red w3-padding-32 w3-hide-small">
+        <h1>Jorge Argueta</h1>
         <p><b>Student | Developer | Data Entry Clerk/Analyst</b></p>   
       </div>
     </div>
@@ -72,16 +77,14 @@ ul#menu li {
   
         <div class="w3-container w3-white w3-margin-bottom">
           <h2 class="w3-text-grey w3-padding-2"><i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-red"></i>About me </h2>
-            <p style="font-family:courier;" style="font-size: large;" >I'm a Computer Science and Mathematics Student at the University of Maryland, web developer, video and photo editor and data entry clerk.
+            <p style="font-family:courier;" style="font-size: large;" >I'm a Computer Science and Mathematics Student, web developer, video and photo editor and data entry clerk.
                  I specialize in fast pace, logical and heavily numerical workflows.
                  With a background in many different fields I bring outside the box thinking and analyzation to a vast array of problems.</p>
         </div>
         <ul id = "menu">
         <li > <a href="https://www.linkedin.com/in/jorge-argueta-917030164/" target = "_blank" class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-red"></a> </li>
         <li > <a href="https://github.com/Jarguet1" target = "_blank" class="fa fa-github fa-fw w3-margin-right w3-large w3-text-red"></a> </li>
-        <li > <a href="https://jarguet19.myportfolio.com/" target = "_blank" class="fa fa-camera fa-fw w3-margin-right w3-large w3-text-red"></a> </li>
-        <li > <a href="https://instagram.com/argueta.19" target = "_blank" class="fa fa-instagram fa-fw w3-margin-right w3-large w3-text-red"></a> </li>
-        <il>  <a href="https://instagram.com/argueta.19" target = "_blank" class="fa fa-file fa-fw w3-margin-right w3-large w3-text-red"></a> </li>
+        <li > <a href="https://instagram.com/argueta.19" target = "_blank" class="fa fa-instagram fa-fw w3-margin-right w3-large w3-text-red"></a> </li>  
         </ul>
         
   
@@ -96,8 +99,54 @@ ul#menu li {
     <!-- End Page Container -->
   </div>
 
-  <h1> UNDER CONSTRUCTION!!! MORE COMING SOON</h1>
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    
+    <!-- first section about me -->
+    <div class="w3-content w3-margin-top w3-padding-64" style="max-width:1200px;">
+      <!-- The Grid -->
+      <div class="w3-row-padding">
+    
+        <!-- Left Column -->
+        <div class="w3-threethirds">
+          
+          <div class="w3-container w3-white w3-margin-bottom">
+            <h2 class="w3-text-grey w3-padding-2"><i class="fa fa-user fa-fw w3-margin-right w3-xxlarge w3-text-red"></i>About my Work</h2>
+              <p style="font-family:courier;" style="font-size: large;" >
+                I've worked in different industries through the years but I have always found my way to the analytical and numerical 
+                side of the job, where I have always thrived and exceeded all expections.
+              </p>
 
+              <p style="font-family:courier;" style="font-size: large;" >
+                I have also been working on my creative skills by starting the creation of a photgraphy porfolio.
+              </p>
+
+              <p style="font-family:courier;" style="font-size: large;" >
+                When it comes to the programing, while I have an understanding knowledge in most programing languages, 
+                I always fall back to python, as it is my native programing language and the one I'm most comfortable with. 
+              </p>
+              <ul id = "menu">
+                <li > <a href="https://github.com/Jarguet1" target = "_blank" class="fas fa-cat w3-margin-right w3-padding-large w3-large w3-text-red">GitHub</a></li>
+                
+                <li > <a href="https://jarguet19.myportfolio.com/" target = "_blank" class="fas fa-camera  w3-margin-right w3-large w3-text-red">Adobe Porfolio</a></li>
+
+                <li > <a href="/static/resume.pdf"  class="fas fa-user-astronaut  w3-margin-right w3-large w3-text-red">Resume</a> </li>  
+
+
+                <li > <a href="wordpress" class="fas fa-blog w3-margin-right w3-large w3-text-red">Blog</a> </li>  
+
+                </ul>
+        <!-- End Left Column -->
+        </div>
+    
+        <!-- Right Column -->
+        <!-- End Right Column -->
+        </div>
+    
+      <!-- End Grid -->
+      </div>
+    
+      <!-- End Page Container -->
+    </div>
 
 
 
