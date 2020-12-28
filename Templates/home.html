@@ -24,26 +24,35 @@ ul#menu li {
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="/" class="w3-bar-item w3-button w3-padding-large">Home</a>
-    <a href="adobe" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Adobe Porfolio</a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Home</a>
     <a href="wordpress" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Blog</a>
-    </div>
+    <a href="adobe" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Adobe Porfolio</a>
+    <a href="https://unsplash.com/@argueta314" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Wallpapers</a> 
+    <a href="/gear" class="w3-bar-item w3-button w3-padding-large">Gear I use</a>
+    <a href="/reviews" class="w3-bar-item w3-button w3-padding-large">Reviews</a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large">About me </a>
+ 
+  </div>
     
 </div>
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="/" class="w3-bar-item w3-button w3-padding-large">Home</a>
-    <a href="adobe" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Adobe Porfolio</a>
-    <a href="wordpress" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Blog</a>
+  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="/" title="Toggle Navigation Menu">home</a>
+  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="wordpress" title="Toggle Navigation Menu">blog</a>
+  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="adobe" title="Toggle Navigation Menu">Adobe Porfolio</a>
+  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="https://unsplash.com/@argueta314" target="_blank" title="Toggle Navigation Menu">wallpapers</a>
+  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="/gear" title="Toggle Navigation Menu">Gear I use</a>
+  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="/reviews" title="Toggle Navigation Menu">Reviews</a>
+  <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="/" title="Toggle Navigation Menu">About me</a>   
+
 </div>
 
 <div class="w3-content" style="max-width:2000px;margin-top:46px">
 
     <!-- Automatic Slideshow Images -->
     <div class=" w3-display-container w3-center">
-      <img src="{{url_for('static', filename='airport.jpg')}}" style="width:100%" >
+      <img src="{{url_for('static', filename='Travel.jpg')}}" style="width:100%" >
       <div class="w3-display-middle w3-container w3-text-red w3-padding-32 w3-hide-small">
         <h1>Jorge Argueta</h1>
         <p><b>Student | Developer | Data Entry Clerk/Analyst</b></p>   

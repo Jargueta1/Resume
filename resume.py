@@ -24,5 +24,14 @@ def wordpress():
 def adobe():
     return render_template("adobe_porfolio.html")
 
+
+@app.route("/gear")
+def gear():
+    return render_template("gear.html")
+
+@app.route("/reviews")
+def reviews():
+    return render_template("reviews.html")
+
 if __name__ == "__main__":
     app.run(debug = True)
