@@ -13,9 +13,8 @@ This is due Tuesday, December 8th by midnight
 	
 ## how to install the environment need for new projects
 ### on windows
-	1- Set-ExecutionPolicy -scope currentUser -- have to double check (pop on console for next 		script)
-		if above is run, then Set-ExecutionPolicy RemoteSigned and it should show what to run 
-		then input Remote Signed 
+	1- Set-ExecutionPolicy -scope currentUser -- 
+		RemoteSigned 
 	2- py -3 -m venv venv
 	3 -venv\Scripts\activate
 	4 -Install needed libraries 
