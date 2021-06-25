@@ -24,7 +24,6 @@ def wordpress():
 def adobe():
     return render_template("adobe_porfolio.html")
 
-
 @app.route("/gear")
 def gear():
     return render_template("gear.html")

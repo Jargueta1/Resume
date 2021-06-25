@@ -6,7 +6,7 @@ The purpose of this code is to create a basic web app log in with encrypted pass
 		added a  log in screem, attmepts counting and failed attempted loging 
 
 ## Due date 
-This is due Tuesday, December 8th by midnight 
+This has to be updated weekly with a new feature 
 
 ## Last edit 
 	create the main files that will be needed for the project and added basic templates 
